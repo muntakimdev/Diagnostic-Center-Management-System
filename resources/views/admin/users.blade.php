@@ -26,6 +26,7 @@
                 <th>ID</th>
                 <th>Name</th>
                 <th>Email</th>
+                <th>Role</th>
             </tr>
         </thead>
 
@@ -36,10 +37,17 @@
                     <td>{{ $user->id }}</td>
                     <td>{{ $user->name }}</td>
                     <td>{{ $user->email }}</td>
+                    <td>
+                        @if($user->usertype==0)
+                            User
+                        @else
+                            Admin
+                        @endif
+                    </td>
                 </tr>
             @empty
                 <tr>
-                    <td colspan="3" class="text-center">
+                    <td colspan="4" class="text-center">
                         No registered users found.
                     </td>
                 </tr>

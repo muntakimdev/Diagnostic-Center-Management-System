@@ -15,12 +15,14 @@ This project was developed during the Ramadan holidays as one of my first experi
 - User registration and authentication.
 - Separate user dashboard after login.
 - Role-based redirection.
+- User Deletion works only by deleting through XAMPP.
 
 ### Admin Features
 - Separate admin dashboard.
 - View registered users.
 - View administrator accounts.
 - Display user roles and account information.
+- Admins cannot delete or update as these features are not added, he can only see the registrants.
 - Admin accounts are currently created manually through XAMPP control panels MySQL servers Admin dashboard.
 
 ## Technologies Used
@@ -56,8 +58,8 @@ Database migrations are included in the repository to help recreate the database
 
 ### 1. Clone the repository
 
-```
-git clone <repository-url>
+``` bash
+git clone https://github.com/muntakimdev/Diagnostic-Center-Management-System.git
 ```
 
 ### 2. Navigate to the project directory
@@ -161,6 +163,7 @@ Possible improvements include:
 - Test pricing and detailed service information.
 - Medical report management.
 - Improved authorization using Laravel middleware.
+- User deletion from website through admin panel
 
 ## Author
 
