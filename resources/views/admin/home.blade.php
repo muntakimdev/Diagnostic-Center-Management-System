@@ -37,8 +37,8 @@
         <div class="col-md-4">
             <div class="card text-center">
                 <div class="card-body">
-                    <h5>Total Users</h5>
-                    <p>Manage registered users</p>
+                    <h5>Manage Users</h5>
+                    <p>Update or Delete registered users</p>
                     <a href ="{{route('admin.users')}}" class="btn btn-primary">View Users</a>
                 </div>
             </div>
